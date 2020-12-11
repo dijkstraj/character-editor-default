@@ -38,7 +38,7 @@ render_strip('shoes', [
     + [sprite_position(i + 3, 4) for i in range(2)]
     + [sprite_position(i + 3, 9) for i in range(2)]
 ])
-render_strip('shirts', [[sprite_position(i + 6 + ci*4, j + cj*5) for j in range(5) for i in range(4)] for cj in range(2) for ci in range(3)])
+render_strip('shirt', [[sprite_position(i + 6 + ci*4, j + cj*5) for j in range(5) for i in range(4)] for cj in range(2) for ci in range(3)])
 render_strip('hair', [[sprite_position(i + 19 + ci*4, j + cj*4) for j in range(4) for i in range(4)] for cj in range(3) for ci in range(2)][:-1])
 render_strip('headgear', [[sprite_position(c + 28, i) for i in range(9)] for c in range(4)])
 render_strip('shield', [[sprite_position(i + 33 + ci*4, j + cj*3) for j in range(3) for i in range(4)][:-2] for cj in range(3) for ci in range(2)])
